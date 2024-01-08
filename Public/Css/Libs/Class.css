@@ -1,0 +1,9 @@
+.fail-field {
+    background-color: red;
+}
+.ok-field {
+    background: green;
+}
+.field-row {
+    margin-bottom: 50px ;
+}

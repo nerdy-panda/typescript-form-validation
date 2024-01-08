@@ -1,0 +1,13 @@
+@import url("../../../../../src/Css/Libs/Bootstrap.css");
+@import url("../Libs/Class.css");
+main#root {
+
+}
+main#root > h1 {
+    font-size: 55px;
+    text-align: center ;
+    text-transform: capitalize;
+}
+label {
+    text-transform: capitalize;
+}

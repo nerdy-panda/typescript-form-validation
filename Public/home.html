@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Form</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="Css/Pages/Home.css" type="text/css">
+    <!-- stylesheets -->
+
+    <!-- scripts -->
+    <script type="module" src="Js/Pages/Home/launcher.js"></script>
+    <!-- scripts -->
+</head>
+<body>
+    <main id="root">
+        <h1>register form</h1>
+        <form action="do-register.html" id="register-form">
+            <section class="field-row" id="first-name-row">
+                <label for="first-name-input">first name :</label>
+                <input type="text" id="first-name-input" name="first-name" placeholder="john" >
+                <ul class="error-container" id="first-name-error-container"></ul>
+            </section>
+            <section class="field-row" id="last-name-row">
+                <lable for="last-name">last name :</lable>
+                <input type="text" id="last-name-input" name="last-name" placeholder="doe">
+                <ul class="error-container" id="last-name-error-container"></ul>
+            </section>
+            <section class="field-row" id="email-row">
+                <label for="email-input">email :</label>
+                <input type="text" name="email" id="email-input" placeholder="john_doe@gmail.com">
+                <ul class="error-container" id="email-error-container"></ul>
+            </section>
+            <section class="field-row" id="url-row">
+                <label for="url-input">url :</label>
+                <input type="text" id="url-input" name="url" placeholder="website.com">
+                <ul id="url-error-container" class="error-container"></ul>
+            </section>
+            <section class="button-row">
+                <button type="submit" id="register-button" disabled>register</button>
+                <button type="reset" id="reset-button">reset</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
